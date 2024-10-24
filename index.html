@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selfie With Me</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="content">
+        <div id="feature-content">
+          <button id="take-pic">Take Picture</button>
+          <button id="onVideo">On Video</button>
+          <button id="stopVideo">Stop Video</button>
+        </div>
+        <div id="video-content">
+          <video id="vid" autoplay></video>
+          <canvas
+            id="canvas"
+            width="640"
+            height="480"
+            style="display: none"
+          ></canvas>
+        </div>
+      </div>
+      <div id="images"></div>
+    </div>
+  </body>
+  <script src="js/app.js"></script>
+</html>
